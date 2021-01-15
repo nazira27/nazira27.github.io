@@ -1,0 +1,539 @@
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+@media only screen and (min-width: 1024px){
+   
+}
+
+/* ============================================================================= 
+2. Typography
+============================================================================= */
+body,
+p,
+.elementor .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #555;
+}
+
+.form-control,
+.form-control:focus,
+.has-error .form-control,
+.has-error .form-control:focus {
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #222;
+}
+
+.logo-text, .logo-symbol {
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    color: #222;
+}
+h2 {
+    font-size: 24px;
+    color: #222;
+}
+h3 {
+    font-size: 18px;
+    color: #222;
+}
+h4 {
+    font-size: 16px;
+    color: #222;
+}
+h5 {
+    font-size: 14px;
+    color: #222;
+}
+h6 {
+    font-size: 12px;
+    color: #222;
+}
+
+.testimonial-author {
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #222;
+}
+
+.timeline-item .item-period,
+.mobile-site-title {
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.form-control,
+.form-control:focus,
+.has-error .form-control,
+.has-error .form-control:focus,
+input[type="search"],
+input[type="password"],
+input[type="text"],
+.header-search input.form-control {
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-primary, .btn-secondary, button, input[type="button"], input[type="submit"] {
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+
+
+/* ============================================================================= 
+3. Backgrounds
+============================================================================= */
+
+html {
+    background: #eff1f9;
+}
+body {
+    background-color: transparent;
+}
+    
+.lm-animated-bg {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: -18px;
+    left: -18px;
+    right: -18px;
+    bottom: -18px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+    
+
+.animated-section > .section-content,
+.single-page-content > .content-wrapper,
+.page-portfolio-loaded,
+.single-post .site-content .post-content {
+    background-color: #fff;
+}
+
+.btn-primary,
+.elementor .btn-primary,
+button,
+input[type="button"],
+input[type="submit"],
+.btn-primary, button, input[type="button"], input[type="submit"],
+.elementor .service-icon,
+.lm-pricing .lm-package-wrap.highlight-col .lm-heading-row span:after,
+.portfolio-page-nav > div.nav-item a:hover,
+.elementor .testimonials.owl-carousel .owl-nav .owl-prev:hover,
+.elementor .testimonials.owl-carousel .owl-nav .owl-next:hover,
+.elementor .clients.owl-carousel .owl-nav .owl-prev:hover,
+.elementor .clients.owl-carousel .owl-nav .owl-next:hover,
+.elementor .fw-pricing .fw-package-wrap.highlight-col .fw-heading-row span:after,
+.cat-links li a,
+.cat-links li a:hover,
+.calendar_wrap td#today,
+.nothing-found p,
+.elementor .portfolio-grid figure .portfolio-preview-desc h5:after,
+.preloader-spinner,
+.elementor .info-list li .title:after,
+.elementor .clients.owl-carousel .owl-dot.active span,
+.elementor .clients.owl-carousel .owl-dot:hover span,
+.elementor .testimonials.owl-carousel .owl-dot.active span,
+.elementor .testimonials.owl-carousel .owl-dot:hover span,
+.logo-symbol,
+.elementor .fw-pricing .fw-package.highlight .fw-heading-row span:after,
+.ps:hover>.ps__scrollbar-y-rail:hover>.ps__scrollbar-y,
+.elementor .knowledges li,
+.elementor .timeline .divider:before,
+.site-menu .main-menu li a:before,
+.block-title h2:after,
+.block-title h3:after,
+h3.comment-reply-title:after,
+.blog-sidebar .sidebar-title h4:after,
+.elementor .skill-percentage {
+    background-color: #5468e7;
+}
+
+@media only screen and (max-width: 1024px) {
+    .menu-toggle {
+        background-color: #5468e7;
+    }
+}
+
+
+.blog-sidebar .sidebar-item {
+    background-color: #fff;
+}
+
+.block-title:after, h3.comment-reply-title:after {
+    background-image: -webkit-repeating-radial-gradient(center center, #5468e7, #5468e7 1px, transparent 0px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #5468e7, #5468e7 1px, transparent 0px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #5468e7, #5468e7 1px, transparent 0px, transparent 100%);
+}
+
+
+
+
+/* ============================================================================= 
+4. Colors
+============================================================================= */
+a,
+.form-group-with-icon.form-group-focus i,
+.site-title span,
+.header-search button:hover,
+.header-search button:focus,
+.block-title h3 span,
+.header-search button:hover,
+.header-search button:focus,
+.ajax-page-nav > div.nav-item a:hover,
+.project-general-info .lnr,
+.comment-author a:hover,
+.comment-list .pingback a:hover,
+.comment-list .trackback a:hover,
+.comment-metadata a:hover,
+.comment-reply-title small a:hover,
+.entry-title a:hover,
+.entry-content .edit-link a:hover,
+.post-navigation a:hover,
+.image-navigation a:hover,
+.elementor .portfolio-grid figure i,
+.share-buttons a:hover,
+.elementor .info-block-w-icon i,
+.elementor .lm-info-block i,
+.lmpixels-arrows-nav div:hover,
+.block-title h2 span, h3.comment-reply-title span,
+.elementor .block-title h2 span,
+.elementor .fun-fact-block-value,
+.elementor .testimonial .author-info .icon,
+.elementor .header-buttons .btn-primary:hover,
+.elementor .form-group:not(.form-group-checkbox) .form-control:focus ~ label,
+.elementor .form-group.form-group-focus:not(.form-group-checkbox) .form-control ~ label,
+.elementor .info-list li .title,
+.header-buttons .btn-primary:hover,
+.entry-meta.entry-meta-bottom .share-buttons a:hover,
+.entry-meta .featured-post {
+    color: #5468e7;
+}
+
+a,
+.entry-meta:not(.entry-tags-share) a:hover,
+.post-navigation .lm-nav-link a:hover span,
+.post-navigation .lm-nav-link a:hover h5 {
+    color: #0099cc;
+}
+
+a:hover,
+.post-navigation .meta-nav:hover {
+    color: #006699;
+}
+
+.wp-block-pullquote.is-style-solid-color {
+    background-color: #5468e7;
+}
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-background),
+.wp-block-button.is-style-outline .wp-block-button__link:active,
+.wp-block-button.is-style-outline .wp-block-button__link:focus,
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+    background-color: #5468e7;
+}
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        background-color: #5468e7;
+    }
+}
+
+
+
+
+/* ============================================================================= 
+5. Borders
+============================================================================= */
+.logo-symbol,
+.form-control + .form-control-border,
+.elementor .timeline-item,
+.elementor .timeline-item:before,
+.page-links a:hover,
+.paging-navigation .page-numbers.current,
+.paging-navigation .page-numbers:not(.dots):hover,
+.paging-navigation .page-numbers:focus,
+.portfolio-grid figure .portfolio-preview-desc h5:after,
+.paging-navigation a:hover,
+.blog-sidebar ul li:before,
+.elementor .share-buttons a:hover,
+.elementor .testimonials.owl-carousel .owl-nav .owl-prev:hover,
+.elementor .testimonials.owl-carousel .owl-nav .owl-next:hover,
+.elementor .clients.owl-carousel .owl-nav .owl-prev:hover,
+.elementor .clients.owl-carousel .owl-nav .owl-next:hover,
+.wp-block-pullquote,
+.wp-block-button .wp-block-button__link,
+.elementor .timeline-item h5.item-period.highlighted,
+.form-control ~ .form-control-border,
+.elementor .form-control ~ .form-control-border,
+.elementor .timeline .divider:after,
+blockquote {
+    border-color: #5468e7;
+}
+
+@media only screen and (max-width: 1024px) {
+    .lmpixels-arrows-nav {
+        border-color: #5468e7;
+    }
+}
+
+
+/* ============================================================================= 
+6. Page Titles and Page Content Area
+============================================================================= */
+.page-title h1 {
+    color: #222;
+    font-size: 48px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-title h1 {
+        font-size: 40px;
+    }
+}
+
+.page-content {
+    background-color: #ffffff;
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .content-area {
+        max-width: calc(100% - 180px);
+    }
+
+    .single-page-content,
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        /* max-width: 2200px; */
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .menu-resume {
+        padding: 20px !important;
+    }
+    .header {
+        position: fixed;
+        max-height: 100%;
+    }
+    .header-content,
+    .r-sidebar {
+        max-height: calc(100vh);
+        min-height: 100vh;
+        border-radius: 0;
+    }
+    .admin-bar .header-content,
+    .admin-bar .r-sidebar,
+    .admin-bar .blog-sidebar {
+        max-height: calc(100vh - 52px);
+        min-height: calc(100vh - 52px);
+    }
+    .blog-sidebar {
+        height: calc(100vh - 20px);
+    }
+    ul.main-menu {
+        left: -80px;
+        right: auto;
+        top: 0;
+        bottom: 0;
+        border-radius: 0;
+    }
+    .page-wrapper {
+        position: fixed;
+        padding: 0;
+    }
+    .page-content {
+        /* max-width: 2200px; */
+        min-height: 100vh;
+        margin: 0 auto;
+        border-radius: 0;
+    }
+    .admin-bar .page-content {
+        height: 100%;
+        min-height: 100%;
+        margin: 0 auto;
+        top: 0;
+    }
+    .animated-section, .single-page-content,
+    .animated-section,
+    .section-content,
+    .single-page-content,
+    .content-wrapper {
+        border-radius: 0;
+    }
+    ul.main-menu .link-text {
+        position: relative;
+        left: 0;
+        right: 0;
+        right: auto;
+        visibility: visible;
+        opacity: 1;
+        color: #222;
+        font-size: 11px;
+        padding: 8px 0 5px;
+        background: transparent;
+        box-shadow: none;
+    }
+    ul.main-menu a:hover .link-text {
+        left: 0;
+        right: 0;
+    }
+    .lmpixels-arrows-nav {
+        background-color: rgba(255,255,255,.6);
+        width: 48px;
+        right: 10px;
+        bottom: 10px;
+        padding: 5px 0;
+        border: 2px solid #5468e7;
+    }
+}
+.home-page-first-style {
+    min-height: calc(100vh - 140px) !important;
+}
+        
+@media only screen and (min-width: 1025px) {
+    .menu-resume {
+        min-width: 300px !important;
+    }
+    .header-content {
+        width: 0;
+    }
+    .content-area {
+        max-width: calc(100% - 360px);
+        left: 340px;
+    }
+    .site-menu,
+    .site-menu.profile-card-on {
+
+        visibility: visible;
+        opacity: 1;
+        max-width: 320px;
+        left: 0;
+    }
+    .site-menu.profile-card-on {
+        display: block;
+        max-width: 320px;
+    }
+    .profile-card {
+        padding-top: 50px !important;
+    }
+
+    .profile-card,
+    .site-menu.profile-card-on .main-menu {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        padding: 36px;
+        height: auto;
+        min-height: auto;
+    }
+
+    .site-menu.profile-card-on .main-menu {
+        padding-bottom: 40px;
+    }
+
+    .menu-button {
+        display: none;
+    }
+}
+
+
+
+.profile-card-block .profile-img,
+.profile-card-block .profile-img img {
+    height: auto;
+    max-height: 120px;
+    width: auto;
+    max-width:  120px;
+    border-radius: 120px;
+    margin: 0 auto;
+}
+
+            
+        
+
+/* ============================================================================= 
+7. Main Menu
+============================================================================= */
+.site-menu .main-menu li a {
+    color: #222222;
+}
+
+.site-menu .main-menu li a:before {
+    background-color: #5468e7;
+}
+
+@media only screen and (min-width: 1025px) {
+    .header-content {
+        background-color: #5468e7;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .header {
+        background-color: #5468e7;
+    }
+}
+.header-titles h2 {
+    color: #ffffff;
+}
+.menu-button span {
+    background: #ffffff;
+}
+.site-menu {
+    background-color: #f5f5f5;
+}
+
+/* ============================================================================= 
+8. Custom Styles
+============================================================================= */
+.site-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.technologies {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tech-text {
+    border-top: 2px solid #5468e7;
+    padding-top: 10px;
+}
+.technologies li {
+    border: 1px solid #2D2747;
+    background-color: #2D2747;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 5px 0;
+    padding: 5px 10px;
+}
